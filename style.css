@@ -134,3 +134,37 @@ main section{
 .resume-CV{
     margin-top: 50px;
 }
+
+/* Footer Section */
+footer {
+    background-color: #fefefe;
+    text-align: center;
+    padding: 100px 20px;
+    border-top: 1px solid #94b4e8;
+}
+
+footer p {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 20px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #737577;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.links li a:hover {
+    color: #0915e7;
+    font-size: 18px;
+}
